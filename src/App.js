@@ -1,6 +1,7 @@
 
 import './App.css';
 import Header from './componants/Header';
+import Footer from './componants/Footer';
 
 function App() {
   return (
@@ -8,6 +9,8 @@ function App() {
       <header className="App-header">
         <Header/>
       </header>
+
+      <Footer/>
     </div>
   );
 }
